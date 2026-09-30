@@ -7,7 +7,14 @@ authors = [
     { name = "Ana", email = "anaspaula17@gmail.com" }
 ]
 requires-python = ">=3.11,<3.12"
-dependencies = []
+dependencies = [
+    "glcontext>=3.0.0",
+    "glfw>=2.10.2",
+    "moderngl>=5.12.0",
+    "numpy>=2.4.6",
+    "pillow>=12.3.0",
+    "pyglm>=2.8.3",
+]
 
 [project.scripts]
 cg2 = "cg2:main"
